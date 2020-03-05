@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="part1">
+        <div id="television">
+            <video id="video" autoplay controls volume="0.5"> </video>
+        </div>
+    </div>
+    <div class="part2">
+        <div id="remote">
+            Remote<br><br>
+            <button onclick="changeStatus()">on/off</button>
+            <button onclick="changeChannel(remote.button[0])">1</button>
+            <button onclick="changeChannel(remote.button[1])">2</button>
+            <button onclick="plusVolume()">+</button>
+            <button onclick="minusVolume()">-</button><br>
+            <button id="change-volume" onclick="changeStatusVolume()">Open/Close volume</button>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

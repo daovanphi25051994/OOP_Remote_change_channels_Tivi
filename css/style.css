@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/58/97/living-room-vintage-cartoon-background-vector-10165897.jpg");
+}
+.part1 {
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+.part2 {
+    height: 430px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#television {
+    width: 800px;
+    height: 500px;
+    background: black;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
+#remote {
+    background: silver;
+    width: 250px;
+    height: 430px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+video {
+    width: 790px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 0;
+}
+button {
+    width: 60px;
+    height: 40px;
+    background: brown;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+#change-volume {
+    width: 100px;
+}
+button:hover{
+    background: orange;
+    color: black;
+}
